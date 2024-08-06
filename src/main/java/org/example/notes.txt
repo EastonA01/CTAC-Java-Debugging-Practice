@@ -1,0 +1,27 @@
+Breakdown:
+
+Part 1 and 2 went on without a hitch.
+
+Part 3 was not necessarily needed as the logic to calculate the average between
+numbers was correctly implemented on the first go-through but System.out.print()
+could have been used to debug the section if need be
+
+In part 4- based off my debugging and stepping into-out of my functions and
+break points I *think* the NullPointerException occurs at line 20 and line 28 for the
+ArrayIndexOutOfBoundsException. But that is simply where the errors are thrown.
+Line 45 is where the NullPointerException breaks out of the loop upon further examination.
+Whereas line 26 is where the ArrayIndexOutOfBounds exception ACTUALLY takes place.
+
+5. Partially seen in the section above. I used the debugger to trace these issues
+by placing breakpoints where I had run the programs with the variables/methods
+that I thought were causing the problems and stepped through the functions as they were
+running and got to see exactly where the program failed.
+
+6./.7 I introduced a bug in my calculateAverage function where the sum of the
+array of integers was divided by 10 rather than the size of the ArrayList.
+In a similar fashion to the above section. I placed breakpoint(s) where I had assumed
+the *very intentional* error was placed and lo and behold the incorrect output occurred
+at line 48 (technically moved to line 51 after commenting and implementing the
+correct solution).
+
+
